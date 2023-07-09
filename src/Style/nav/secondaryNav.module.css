@@ -1,0 +1,45 @@
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    font-size: 2rem;
+}
+.sarvice{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 1rem;
+}
+.right{
+    display: flex;
+}
+.one,.three{
+    background: transparent;
+    border: none;
+    font-size: 1.2rem;
+    color: white;
+    margin: 0 0.5rem;
+}
+.two{
+    background: #3535c0;
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 1rem;
+}
+
+/* sarvice section style */
+
+
+
+
+/* sarvice section style end*/

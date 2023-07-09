@@ -3,6 +3,7 @@ import classes from "../../Style/nav/Nav.module.css"
 import logo from "../../assets/logo-white.webp"
 import { CiLocationOn } from 'react-icons/ci';
 import { AiOutlineSearch ,AiOutlineShoppingCart} from 'react-icons/ai';
+import SecondaryNav from './SecondaryNav';
 
 
 const Nav = () => {
@@ -30,6 +31,8 @@ const Nav = () => {
                     <span className={classes.cartCount}>0</span>
                 </div>
             </div>
+            <div className={classes.horizontal}/>
+            <SecondaryNav></SecondaryNav>
         </div>
     );
 }

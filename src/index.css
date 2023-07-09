@@ -1,26 +1,47 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
   font-size: 62.5%;
 }
-span{
+
+span {
   font-size: 1.2rem;
 }
-h2{
+
+h2 {
   font-size: 2rem;
 }
-h3{
+
+h3 {
   font-size: 1rem;
 }
-@media only screen and (max-width: 320px){
-  *{
+
+h5 {
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+.slider-img {
+  width: 100%;
+  border-radius: 1rem;
+  
+}
+.slider-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 320px) {
+  * {
     font-size: 40%;
   }
 }
-@media only screen and (max-width: 650px){
-  *{
+
+@media only screen and (max-width: 650px) {
+  * {
     font-size: 60%;
   }
 }

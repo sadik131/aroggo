@@ -1,0 +1,71 @@
+.container {
+    background-color: rgb(43, 100, 43);
+    padding: 1rem;
+    color: white;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 7rem;
+}
+
+.deliver {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.serch {
+    width: 30%;
+    position: relative;
+}
+
+.input {
+    width: 100%;
+    height: 3rem;
+    padding: 1rem;
+    border: none;
+    border-radius: 2rem;
+    font-size: 1.6rem;
+}
+
+.search {
+    color: black;
+    font-size: 2rem;
+    position: absolute;
+    right: 1rem;
+    top: 0.6rem;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+}
+
+.cartIcon {
+    font-size: 3.5rem;
+    position: relative;
+}
+
+.cartTitle {
+    font-size: 1.5rem;
+}
+
+.cartCount {
+    background-color: red;
+    color: white;
+    width: 2.5rem;
+    font-weight: 700;
+    height: 2.5rem;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+}

@@ -6,14 +6,19 @@ import { BiPhoneCall, BiLogoBlogger } from "react-icons/bi"
 import { AiOutlineHeart } from "react-icons/ai"
 import { FaFileUpload } from "react-icons/fa"
 import { PiNumberEightBold } from "react-icons/pi"
+import { useGlobalContex } from '../../Hooks/reactContex/Contex';
 
 
 const SecondaryNav = () => {
+    const { open, setOpen } = useGlobalContex()
+    
     return (
         <div className={classes.main}>
             <div className={classes.container}>
                 <span>
-                    <GiHamburgerMenu className={classes.icon} />
+                    <GiHamburgerMenu
+                    onClick={()=>setOpen(!open)}
+                    className={classes.icon} />
                 </span>
                 <h5>category</h5>
             </div>
@@ -39,10 +44,10 @@ const SecondaryNav = () => {
                     <button className={classes.one}>Career</button>
                     <button className={classes.two}>We are hiring</button>
                     <button className={classes.three}>Quick Order</button>
-                <Sarvices
-                    title="Upload Prescription"
-                    icon={<FaFileUpload className={classes.icon} />}
-                ></Sarvices>
+                    <Sarvices
+                        title="Upload Prescription"
+                        icon={<FaFileUpload className={classes.icon} />}
+                    ></Sarvices>
                 </div>
             </div>
         </div>
